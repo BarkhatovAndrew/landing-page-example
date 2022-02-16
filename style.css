@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+
+a {
+  color: white;
+}
+
+header {
+  background: rgb(78, 41, 222);
+  background: linear-gradient(
+    146deg,
+    rgba(78, 41, 222, 1) 0%,
+    rgba(125, 48, 230, 1) 100%
+  );
+  color: white;
+  margin: auto;
+}
+
+nav {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  height: 100px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu ul {
+  float: right;
+  word-spacing: 40px;
+}
+
+.menu {
+  width: 80%;
+  line-height: 100px;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+  line-height: 100px;
+}
+
+.cta-btn {
+  background-color: #efd358;
+  color: rgb(32, 32, 32);
+  border-radius: 7px;
+  line-height: 50px;
+  word-spacing: normal;
+  width: 150px;
+  text-align: center;
+  transition: 0.2s;
+  font-weight: bolder;
+}
+
+.cta-btn:hover {
+  color: white;
+}
+
+.header-block {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.book-img {
+  width: 400px;
+  margin: 70px 70px 120px 70px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.header-text-right {
+  padding: 50px 150px 50px 50px;
+}
+
+.header-text-right p {
+  font-size: 22px;
+  word-spacing: 7px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+input[type="email"] {
+  height: 60px;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  border: none;
+}
+
+button {
+  height: 60px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #efd358;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: white;
+  background-color: #d1ac31;
+}
+
+.additional-information {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+main {
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.achive-headings p {
+  font-size: 20px;
+  text-align: center;
+  margin: 70px 0 20px;
+  color: rgb(48, 3, 107);
+}
+
+.achive-headings h2 {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 50px;
+}
+
+.achivements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.achivement {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  width: 300px;
+}
+
+.achivement h3 {
+  font-size: 24px;
+  color: rgb(53, 53, 53);
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+
+.achivement p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(53, 53, 53);
+  padding: 0 30px;
+}
+
+.sponsors-block p {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0;
+  color: rgb(53, 53, 53);
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors img {
+  margin: 0 0 50px 0;
+  filter: grayscale(100%); 
+}
+
+.cta-block {
+  margin: 150px 0;
+  display: flex;
+}
+
+.book-cta-left {
+  width: 800px;
+}
+
+.block-cta-right {
+  width: 600px;
+}
+
+.block-cta-right h2 {
+  font-size: 46px;
+  text-align: center;
+}
+
+.block-cta-right p {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(53, 53, 53);
+  margin: 30px 0;
+  line-height: 30px;
+}
+
+.cta-button {
+  background-color: #efd358;
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin-top: 10px;
+  outline: none;
+}
+
+.cta-button:hover {
+  color: white;
+  background-color: #d1ac31;
+}
